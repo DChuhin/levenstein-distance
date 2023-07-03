@@ -21,7 +21,6 @@ public class MinimalDistance {
         int m = word2.length();
         int[][] dp = new int[n + 1][m + 1];
 
-        dp[0][0] = 0;
         for (int i = 0; i <= n; i++) {
             dp[i][0] = i;
         }
